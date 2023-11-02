@@ -41,7 +41,8 @@ body {
     width: 100%;
 }
 
-.nav {
+.nav,
+.logo {
     padding-bottom: 1rem;
 }
 
@@ -71,4 +72,15 @@ body {
 
 .nav a:hover::after {
     width: 70%;
+}
+
+.hero_title {
+    font-size: 64px;
+    color: var(--White);
+    font-family: var(--josefin);
+    font-weight: 100;
+    border: 2px solid var(--White);
+    padding: 2rem;
+    max-width: 600px;
+    margin-top: 10rem;
 }
