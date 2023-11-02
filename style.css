@@ -3,6 +3,10 @@
 :root {
     --alata: 'Alata', sans-serif;
     --josefin: 'Josefin Sans', sans-serif;
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark_Gray: hsl(0, 0%, 55%);
+    --Very_Dark_Gray: hsl(0, 0%, 41%);
 }
 
 * {
