@@ -84,3 +84,43 @@ body {
     max-width: 600px;
     margin-top: 10rem;
 }
+
+.feature {
+    padding: 8rem 3rem;
+    display: flex;
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.feature_text {
+    background-color: #fff;
+    padding: 5rem;
+    max-width: 520px;
+    height: 382px;
+    position: absolute;
+    right: 3rem;
+    bottom: 1.5rem;
+}
+
+.feature_text h1 {
+    font-size: 41px;
+    font-weight: 100;
+    font-family: var(--josefin);
+}
+
+.feature_text p {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: var(--Dark_Gray);
+}
+
+@media(max-width: 1050px) {
+    .hero {
+        padding: 3rem;
+    }
+
+    .feature {
+        padding: 6rem 3rem;
+    }
+}
