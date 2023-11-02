@@ -86,11 +86,9 @@ body {
 }
 
 .feature {
-    padding: 8rem 3rem;
+    padding: 8rem 10rem;
     display: flex;
     position: relative;
-    max-width: 1300px;
-    margin: auto;
 }
 
 .feature_text {
@@ -99,7 +97,7 @@ body {
     max-width: 520px;
     height: 382px;
     position: absolute;
-    right: 3rem;
+    right: 10rem;
     bottom: 1.5rem;
 }
 
@@ -122,5 +120,9 @@ body {
 
     .feature {
         padding: 6rem 3rem;
+    }
+
+    .feature_text {
+        right: 0;
     }
 }
