@@ -228,6 +228,69 @@ body {
             rgba(0, 0, 0, 0.3)), url('./images/desktop/image-fisheye.jpg') no-repeat center top/cover;
 }
 
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 10rem;
+    background-color: var(--Black);
+    color: var(--White);
+}
+
+.fr {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+}
+
+.flogo {
+    padding-left: 1rem;
+}
+
+.icons i {
+    font-size: 30px;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.icons i:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    transform-origin: left;
+    height: 2px;
+    background-color: var(--White);
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: .3s ease;
+    transition: width 0.3s ease;
+}
+
+.icons i:hover::after {
+    width: 100%;
+}
+
+.copyright {
+    font-size: 16px;
+    color: var(--Dark_Gray);
+}
+
+.attribution {
+    text-align: center;
+    position: fixed;
+    padding: .5rem 1rem;
+    bottom: 0;
+    background-color: var(--Black);
+    width: 100%;
+    color: var(--White);
+    font-size: 12px;
+}
+
+.attribution a {
+    color: crimson;
+}
+
 @media(max-width: 1050px) {
 
     .hero,
