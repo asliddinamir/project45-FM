@@ -279,7 +279,7 @@ body {
 .attribution {
     text-align: center;
     position: fixed;
-    padding: .5rem 1rem;
+    padding: .2rem 1rem;
     bottom: 0;
     background-color: var(--Black);
     width: 100%;
