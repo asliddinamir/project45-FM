@@ -343,4 +343,23 @@ body {
     .photo {
         flex-basis: 100%;
     }
+
+    .feature img {
+        object-position: center center;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    .feature_text {
+        background-color: #fff;
+        padding: 2rem;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+    }
 }
