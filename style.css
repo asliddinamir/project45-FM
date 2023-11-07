@@ -385,3 +385,27 @@ body {
         min-height: 60vh;
     }
 }
+
+@media(max-width:538px) {
+    .pics_top {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .pics_top h2,
+    .feature_text h1,
+    .hero_title {
+        font-size: 28px;
+    }
+
+    .hero_title {
+        width: 100%;
+    }
+
+    .pics,
+    .feature,
+    .hero {
+        padding: 3rem 1rem;
+    }
+}
