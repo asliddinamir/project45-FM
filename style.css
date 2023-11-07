@@ -292,6 +292,10 @@ body {
     cursor: pointer;
 }
 
+.menu {
+    display: none;
+}
+
 @media(max-width: 1050px) {
 
     .hero,
@@ -361,5 +365,23 @@ body {
         left: 50%;
         text-align: center;
         transform: translateX(-50%);
+    }
+
+    .menu {
+        display: block;
+        padding-bottom: 1rem;
+        cursor: pointer;
+    }
+
+    #mainNav {
+        display: none;
+    }
+
+    .hero_title {
+        font-size: 44px;
+    }
+
+    .hero {
+        min-height: 60vh;
     }
 }
