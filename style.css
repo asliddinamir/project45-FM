@@ -46,6 +46,10 @@ body {
     padding-bottom: 1rem;
 }
 
+.logo {
+    z-index: 3;
+}
+
 .nav a {
     color: var(--White);
     text-decoration: none;
@@ -354,6 +358,7 @@ body {
 
     .feature {
         flex-direction: column;
+        z-index: 1;
     }
 
     .feature_text {
@@ -371,10 +376,31 @@ body {
         display: block;
         padding-bottom: 1rem;
         cursor: pointer;
+        z-index: 3;
     }
 
     #mainNav {
         display: none;
+    }
+
+    #mainNav.show_nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        background-color: var(--Black);
+        left: 0;
+        top: 0;
+        padding: 10rem 0 0 3rem;
+    }
+
+    #mainNav.show_nav a {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: var(--josefin);
+        padding-block: 1rem;
     }
 
     .hero_title {
@@ -407,5 +433,9 @@ body {
     .feature,
     .hero {
         padding: 3rem 1rem;
+    }
+
+    #mainNav.show_nav {
+        padding: 10rem 0 0 .5rem;
     }
 }
