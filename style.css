@@ -311,3 +311,32 @@ body {
         padding: 3rem 2rem;
     }
 }
+
+@media(max-width:789px) {
+    .footer_inner {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fr:nth-of-type(2) {
+        padding-left: 1rem;
+    }
+
+    .fr {
+        gap: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    #footer_nav {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-block: 1rem;
+    }
+}
