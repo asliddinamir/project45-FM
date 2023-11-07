@@ -306,4 +306,8 @@ body {
     .feature_text {
         right: 0;
     }
+
+    .footer_inner {
+        padding: 3rem 2rem;
+    }
 }
